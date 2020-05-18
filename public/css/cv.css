@@ -1,0 +1,305 @@
+html
+{
+    min-height: 100%;
+    position: relative;
+}
+body
+{
+    overflow-x: hidden;
+}
+header 
+{
+    background-image: url(../img/DCG33.png);
+    background-size: cover;
+    height: 475px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;  
+}
+nav ul 
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+li
+{
+    margin: 0 1em;
+    list-style-type: none; 
+}
+a
+{ 
+    color:white;  
+}
+.title li a
+{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.formation
+{
+    font-size: 14px;
+}
+.title
+{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.portrait
+{
+    margin:auto;
+    max-width: 150px;
+    border-radius:50%;
+}
+.flexbutton 
+{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.HireMe
+{
+    text-align: center center;
+    border-left: 5px;
+    border-right: 5px;
+    border-bottom: 5px; 
+    border-top: 5px;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: white;
+    background-color: teal;
+    color:white;   
+    padding-left: 3.4em;
+    padding-right: 3.4em;
+}
+.Download
+{
+    border-left: 5px;
+    border-right: 5px;
+    border-bottom: 5px; 
+    border-top: 5px;
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: white;
+    background-color: teal;
+    color:white;
+    padding-left: 2em;
+   padding-right: 2em;
+    
+}
+.icon a
+{
+    color: #775030;
+}
+
+.ABI
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 25px;
+    margin: 3em;
+    border: solid 1px grey;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+.About
+{
+    width: 350px;
+    height: 250px;
+}
+.professionnal
+{
+    text-align: center;
+}
+.art0
+{
+    text-align: center;
+    padding: 25px;
+    height: 300px;
+    border: solid 1px grey;
+    box-shadow: 5px 5px 5px 5px grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:55px;
+}
+.progress
+{width: 700px;}
+h2
+{
+    text-align: center;
+}
+.WE
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 330px
+}
+.green
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    background-color: green;
+    padding: 10px;
+}
+.articlt
+{
+    display: flex;
+    margin: 50px;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+.article-texte
+{
+    text-align: left;
+    padding: 25px;
+}
+.porto 
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.iconb 
+{
+    color: #775030;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.photo
+{
+    display: block;
+    justify-content: center;
+    margin: auto;
+}
+.photos .photo0
+{
+    padding: 25px;
+    height: 150px ;
+}
+.img1
+{box-shadow: 5px 5px 5px 5px grey;
+margin-left:15em;
+margin-right: 2em;
+margin-top: 2em;}
+.img
+{box-shadow: 5px 5px 5px 5px grey;
+margin-left:2em;
+margin-right: 2em;
+margin-top: 2em;}
+.photos img {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.photos:hover img {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+.photos0:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.adress
+{
+    border-color: white;
+    background-color: white;
+    width: auto;
+    margin: 0 50% 0;
+    display: inline-block;
+    text-align: center;
+    flex-direction: row;
+    padding: 0 auto 0 ;
+
+}
+
+form {
+    /* Uniquement centrer le formulaire sur la page */
+    width: 250px;
+    /* Encadré pour voir les limites du formulaire */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+    display: inline-block;
+    width: 30px;
+    text-align: right;
+  }
+  
+  input, textarea {
+    /* Pour s'assurer que tous les champs texte ont la même police.
+       Par défaut, les textarea ont une police monospace */
+    font: 1em sans-serif;
+  
+    /* Pour que tous les champs texte aient la même dimension */
+    width: 100px;
+    box-sizing: border-box;
+  
+    /* Pour harmoniser le look & feel des bordures des champs texte */
+    border: 1px solid #999;
+  }
+  
+  input:focus, textarea:focus {
+    /* Pour souligner légèrement les éléments actifs */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+    vertical-align: top;
+  
+    /* Pour donner assez de place pour écrire du texte */
+    height: 5em;
+  }
+  
+  .button {
+    /* Pour placer le bouton à la même position que les champs texte */
+    padding-left: 90px; /* même taille que les étiquettes */
+    
+  }
+  
+  
+@media (max-width: 600px)
+{.image-responsive
+    {width: 100%;}
+    section
+    {flex-wrap: wrap;}
+    article
+    {width: auto;}
+}
